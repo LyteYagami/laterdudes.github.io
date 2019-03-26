@@ -19,3 +19,7 @@ function setGradient(){
 color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
+
+var Welcome = document.getElementsByClassName(".welcome");
+
+console.log(Welcome);
